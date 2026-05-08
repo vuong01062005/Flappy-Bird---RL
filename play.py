@@ -6,17 +6,11 @@ import numpy as np
 from flappy_env import FlappyEnv
 from dqn_model import DQN
 
-# =============================
-# Load trained model
-# =============================
 MODEL_PATH = "./models/flappy_dqn_2800.pth"
 model = DQN(8, 256, 2)
 model.load_state_dict(torch.load(MODEL_PATH, map_location="cpu"))
 model.eval()
 
-# =============================
-# Pygame setup
-# =============================
 pygame.init()
 screen = pygame.display.set_mode((432, 768))
 clock = pygame.time.Clock()
@@ -64,10 +58,7 @@ passed_pipe = False
 # ENV
 env = FlappyEnv()
 
-
-# =============================
-# DRAW PIPE
-# =============================
+# Draw pipe
 def draw_pipes(x, top, bottom):
     flip_pipe = pygame.transform.flip(pipe_surface, False, True)
     top_rect = flip_pipe.get_rect(midbottom=(x, top))
@@ -76,18 +67,16 @@ def draw_pipes(x, top, bottom):
     screen.blit(flip_pipe, top_rect)
     screen.blit(pipe_surface, bottom_rect)
 
+def rotate_bird(bird1, movement):
+    return pygame.transform.rotozoom(bird1, -movement * 3, 1)
 
-# =============================
-# DRAW BIRD
-# =============================
-def draw_bird(y):
-    bird_rect = bird_list[bird_index].get_rect(center=(100, y))
-    screen.blit(bird_list[bird_index], bird_rect)
+# Draw bird
+def draw_bird(y, movement):
+    rotated_bird = rotate_bird(bird_list[bird_index], movement)
+    bird_rect = rotated_bird.get_rect(center=(100, y))
+    screen.blit(rotated_bird, bird_rect)
 
-
-# =============================
-# SCORE DISPLAY
-# =============================
+# Score display
 def score_display(game_state):
     if game_state == 'main game':
         s = game_font.render(str(int(score)), True, (255,255,255))
@@ -99,10 +88,7 @@ def score_display(game_state):
         screen.blit(s1, s1.get_rect(center=(216, 100)))
         screen.blit(s2, s2.get_rect(center=(216, 630)))
 
-
-# =============================
-# INTRO SCREEN
-# =============================
+# Intro screen
 def intro_screen():
     while True:
         for event in pygame.event.get():
@@ -119,16 +105,11 @@ def intro_screen():
         pygame.display.update()
         clock.tick(30)
 
-
-# =============================
-# GAME START
-# =============================
+# Game start
 intro_screen()
 state = env.reset()
 
-# =============================
-# MAIN LOOP
-# =============================
+# Main loop
 while True:
     # Update animation
     for event in pygame.event.get():
@@ -166,7 +147,7 @@ while True:
 
     draw_pipes(env.pipe_x, env.pipe_top, env.pipe_bottom)
 
-    draw_bird(env.bird_y)
+    draw_bird(env.bird_y, env.bird_vel)
     score_display("main game")
 
     # Floor
@@ -189,7 +170,15 @@ while True:
         score_display("game_over")
         screen.blit(game_over_surface, game_over_rect)
         pygame.display.update()
-        pygame.time.delay(1000)
+
+        waiting = True
+        while waiting:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    sys.exit()
+                if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+                    waiting = False
 
         score = 0
         passed_pipe = False
