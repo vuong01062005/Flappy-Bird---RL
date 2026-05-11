@@ -58,6 +58,7 @@ def compute_td_loss(model, target_model, buffer, batch_size, gamma, optimizer):
     next_q_target = target_model(next_states)
     next_q_value = next_q_target.gather(1, next_actions.unsqueeze(1)).squeeze(1)
 
+    # --- Bellman equation ---
     expected = rewards + gamma * next_q_value * (1 - dones)
 
     loss = F.mse_loss(q_value, expected.detach())

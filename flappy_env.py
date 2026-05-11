@@ -1,6 +1,5 @@
 import numpy as np
 import random
-import math
 
 class FlappyEnv:
     def __init__(self):
@@ -39,23 +38,20 @@ class FlappyEnv:
             self.pipe_top,
             self.pipe_bottom,
 
-            # Extra features giúp model học tốt hơn:
-            self.pipe_x - 100,                 # khoảng cách theo trục x từ chim đến ống
-            self.bird_y - self.pipe_top,       # khoảng cách từ chim đến mép trên khe
-            self.bird_y - self.pipe_bottom     # khoảng cách từ chim đến mép dưới khe
+            self.pipe_x - 100,
+            self.bird_y - self.pipe_top,
+            self.bird_y - self.pipe_bottom
         ], dtype=np.float32)
 
     def step(self, action):
         if self.done:
             return self._get_state(), 0, True
 
-        # 1. Bird action
-        if action == 1:  # Jump
+        if action == 1:
             self.bird_vel = self.jump_speed
         self.bird_vel += self.gravity
         self.bird_y += self.bird_vel
 
-        # 2. Move pipe
         self.pipe_x -= self.pipe_speed
         if self.pipe_x < -50:
             self.pipe_x = 450
@@ -63,22 +59,20 @@ class FlappyEnv:
             self.pipe_top = pipe_center - self.pipe_gap // 2
             self.pipe_bottom = pipe_center + self.pipe_gap // 2
 
-        # 3. Collision check
         if self.bird_y <= 0 or self.bird_y >= 600:
             self.done = True
 
-        if 50 < self.pipe_x < 150:  # vùng ống chạm chim
+        if 50 < self.pipe_x < 150:
             if not (self.pipe_top < self.bird_y < self.pipe_bottom):
                 self.done = True
 
-        # 4. Reward function hoàn chỉnh
-        reward = 0.1  # sống được thêm → tốt
+
+        reward = 0.1
         if action == 1:
-            reward += 0.01  # nhỏ để tránh spam nhảy
+            reward += 0.01
         if self.done:
             reward = -50
 
-        # thưởng lớn khi vượt ống
         if self.pipe_x == 150:
             reward += 10
 

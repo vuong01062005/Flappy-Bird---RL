@@ -1,6 +1,7 @@
 import torch
 import torch.optim as optim
 import numpy as np
+import json
 
 from flappy_env import FlappyEnv
 from dqn_model import DQN, ReplayBuffer, compute_td_loss
@@ -26,13 +27,13 @@ if __name__ == "__main__":
     buffer = ReplayBuffer(50000)
 
     epsilon = EPS_START
+    train_log = []
 
     for ep in range(EPISODES):
         state = env.reset()
         total_reward = 0
 
         while True:
-            # Epsilon-greedy
             if np.random.random() < epsilon:
                 action = np.random.randint(0, 2)
             else:
@@ -57,6 +58,14 @@ if __name__ == "__main__":
             target_model.load_state_dict(model.state_dict())
 
         print(f"Episode {ep} | Reward = {total_reward:.1f} | ε = {epsilon:.3f}")
+        train_log.append({
+            "episode": ep,
+            "reward":  round(total_reward, 2),
+            "epsilon": round(epsilon, 4),
+            "lr":      optimizer.param_groups[0]["lr"],
+        })
+        with open("train_log.json", "w") as f:
+            json.dump(train_log, f)
 
         if ep % 200 == 0:
             torch.save(model.state_dict(), f"flappy_dqn_{ep}.pth")

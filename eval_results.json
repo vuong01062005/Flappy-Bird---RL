@@ -1,828 +1,1628 @@
 {
   "summary": {
-    "num_episodes": 100,
-    "model_path": "./models/flappy_dqn_2800.pth",
+    "num_episodes": 200,
+    "model_path": "./flappy_dqn_2800.pth",
     "reward": {
-      "mean": 395.76,
-      "std": 457.55,
-      "min": -38.21,
-      "max": 2805.23
+      "mean": 3170.25,
+      "std": 3336.7,
+      "min": -9.34,
+      "max": 19092.56
     },
     "pipes_passed": {
-      "mean": 16.17,
-      "std": 17.05,
-      "min": 0,
-      "max": 106
+      "mean": 119.25,
+      "std": 124.04,
+      "min": 1,
+      "max": 711
     },
     "steps": {
-      "mean": 2818.43,
-      "max": 17820
+      "mean": 20048.78,
+      "max": 118875
     },
     "jump_rate": {
-      "mean": 0.0955,
-      "std": 0.0297
+      "mean": 0.1182,
+      "std": 0.011
     }
   },
   "episodes": [
     {
       "episode": 0,
-      "total_reward": -11.34,
-      "steps": 285,
-      "pipes_passed": 1,
-      "jump_count": 26,
-      "jump_rate": 0.0912
+      "total_reward": 260.04,
+      "steps": 1980,
+      "pipes_passed": 11,
+      "jump_count": 214,
+      "jump_rate": 0.1081
     },
     {
       "episode": 1,
-      "total_reward": 122.84,
-      "steps": 1120,
-      "pipes_passed": 6,
-      "jump_count": 94,
-      "jump_rate": 0.0839
+      "total_reward": 1551.05,
+      "steps": 9996,
+      "pipes_passed": 59,
+      "jump_count": 1155,
+      "jump_rate": 0.1155
     },
     {
       "episode": 2,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 20,
-      "jump_rate": 0.1709
+      "total_reward": 13309.74,
+      "steps": 82972,
+      "pipes_passed": 496,
+      "jump_count": 10264,
+      "jump_rate": 0.1237
     },
     {
       "episode": 3,
-      "total_reward": 578.73,
-      "steps": 3959,
-      "pipes_passed": 23,
-      "jump_count": 293,
-      "jump_rate": 0.074
+      "total_reward": 825.32,
+      "steps": 5490,
+      "pipes_passed": 32,
+      "jump_count": 642,
+      "jump_rate": 0.1169
     },
     {
       "episode": 4,
-      "total_reward": 257.36,
-      "steps": 1955,
-      "pipes_passed": 11,
-      "jump_count": 196,
-      "jump_rate": 0.1003
+      "total_reward": 932.34,
+      "steps": 6154,
+      "pipes_passed": 36,
+      "jump_count": 704,
+      "jump_rate": 0.1144
     },
     {
       "episode": 5,
-      "total_reward": 69.22,
-      "steps": 786,
-      "pipes_passed": 4,
-      "jump_count": 72,
-      "jump_rate": 0.0916
+      "total_reward": 5184.43,
+      "steps": 32547,
+      "pipes_passed": 194,
+      "jump_count": 3983,
+      "jump_rate": 0.1224
     },
     {
       "episode": 6,
-      "total_reward": 605.78,
-      "steps": 4126,
-      "pipes_passed": 24,
-      "jump_count": 329,
-      "jump_rate": 0.0797
+      "total_reward": 3839.62,
+      "steps": 24198,
+      "pipes_passed": 144,
+      "jump_count": 2992,
+      "jump_rate": 0.1236
     },
     {
       "episode": 7,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 19,
-      "jump_rate": 0.1624
+      "total_reward": 5694.22,
+      "steps": 35709,
+      "pipes_passed": 213,
+      "jump_count": 4342,
+      "jump_rate": 0.1216
     },
     {
       "episode": 8,
-      "total_reward": 150.96,
-      "steps": 1301,
-      "pipes_passed": 7,
-      "jump_count": 96,
-      "jump_rate": 0.0738
+      "total_reward": 4807.93,
+      "steps": 30209,
+      "pipes_passed": 180,
+      "jump_count": 3713,
+      "jump_rate": 0.1229
     },
     {
       "episode": 9,
-      "total_reward": 230.26,
-      "steps": 1788,
-      "pipes_passed": 10,
-      "jump_count": 156,
-      "jump_rate": 0.0872
+      "total_reward": 4699.0,
+      "steps": 29534,
+      "pipes_passed": 176,
+      "jump_count": 3570,
+      "jump_rate": 0.1209
     },
     {
       "episode": 10,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 19,
-      "jump_rate": 0.1624
+      "total_reward": 610.58,
+      "steps": 4158,
+      "pipes_passed": 24,
+      "jump_count": 488,
+      "jump_rate": 0.1174
     },
     {
       "episode": 11,
-      "total_reward": 579.47,
-      "steps": 3959,
-      "pipes_passed": 23,
-      "jump_count": 367,
-      "jump_rate": 0.0927
+      "total_reward": 3812.07,
+      "steps": 24025,
+      "pipes_passed": 143,
+      "jump_count": 2967,
+      "jump_rate": 0.1235
     },
     {
       "episode": 12,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 19,
-      "jump_rate": 0.1624
+      "total_reward": 1117.75,
+      "steps": 7307,
+      "pipes_passed": 43,
+      "jump_count": 715,
+      "jump_rate": 0.0979
     },
     {
       "episode": 13,
-      "total_reward": 632.63,
-      "steps": 4293,
-      "pipes_passed": 25,
-      "jump_count": 344,
-      "jump_rate": 0.0801
+      "total_reward": 1562.78,
+      "steps": 10107,
+      "pipes_passed": 60,
+      "jump_count": 1218,
+      "jump_rate": 0.1205
     },
     {
       "episode": 14,
-      "total_reward": 2805.23,
-      "steps": 17820,
-      "pipes_passed": 106,
-      "jump_count": 1334,
-      "jump_rate": 0.0749
+      "total_reward": 2207.65,
+      "steps": 14106,
+      "pipes_passed": 84,
+      "jump_count": 1715,
+      "jump_rate": 0.1216
     },
     {
       "episode": 15,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 20,
-      "jump_rate": 0.1709
+      "total_reward": 3919.03,
+      "steps": 24696,
+      "pipes_passed": 147,
+      "jump_count": 2953,
+      "jump_rate": 0.1196
     },
     {
       "episode": 16,
-      "total_reward": 203.15,
-      "steps": 1621,
-      "pipes_passed": 9,
-      "jump_count": 116,
-      "jump_rate": 0.0716
+      "total_reward": 178.31,
+      "steps": 1471,
+      "pipes_passed": 8,
+      "jump_count": 131,
+      "jump_rate": 0.0891
     },
     {
       "episode": 17,
-      "total_reward": -11.26,
-      "steps": 285,
-      "pipes_passed": 1,
-      "jump_count": 35,
-      "jump_rate": 0.1228
+      "total_reward": 8096.04,
+      "steps": 50649,
+      "pipes_passed": 303,
+      "jump_count": 6124,
+      "jump_rate": 0.1209
     },
     {
       "episode": 18,
-      "total_reward": 15.75,
-      "steps": 452,
-      "pipes_passed": 2,
-      "jump_count": 66,
-      "jump_rate": 0.146
+      "total_reward": 1687.2,
+      "steps": 10838,
+      "pipes_passed": 64,
+      "jump_count": 1350,
+      "jump_rate": 0.1246
     },
     {
       "episode": 19,
-      "total_reward": 122.58,
-      "steps": 1120,
-      "pipes_passed": 6,
-      "jump_count": 68,
-      "jump_rate": 0.0607
+      "total_reward": -9.34,
+      "steps": 307,
+      "pipes_passed": 1,
+      "jump_count": 6,
+      "jump_rate": 0.0195
     },
     {
       "episode": 20,
-      "total_reward": -38.14,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 26,
-      "jump_rate": 0.2222
+      "total_reward": 4378.16,
+      "steps": 27538,
+      "pipes_passed": 164,
+      "jump_count": 3446,
+      "jump_rate": 0.1251
     },
     {
       "episode": 21,
-      "total_reward": -11.22,
-      "steps": 285,
-      "pipes_passed": 1,
-      "jump_count": 38,
-      "jump_rate": 0.1333
+      "total_reward": 7576.96,
+      "steps": 47403,
+      "pipes_passed": 283,
+      "jump_count": 5676,
+      "jump_rate": 0.1197
     },
     {
       "episode": 22,
-      "total_reward": 96.01,
-      "steps": 953,
-      "pipes_passed": 5,
-      "jump_count": 81,
-      "jump_rate": 0.085
+      "total_reward": 3757.05,
+      "steps": 23685,
+      "pipes_passed": 141,
+      "jump_count": 2865,
+      "jump_rate": 0.121
     },
     {
       "episode": 23,
-      "total_reward": 15.58,
-      "steps": 452,
-      "pipes_passed": 2,
-      "jump_count": 48,
-      "jump_rate": 0.1062
+      "total_reward": 10226.0,
+      "steps": 63885,
+      "pipes_passed": 382,
+      "jump_count": 7760,
+      "jump_rate": 0.1215
     },
     {
       "episode": 24,
-      "total_reward": 69.21,
-      "steps": 786,
-      "pipes_passed": 4,
-      "jump_count": 71,
-      "jump_rate": 0.0903
+      "total_reward": 2466.79,
+      "steps": 15673,
+      "pipes_passed": 93,
+      "jump_count": 1959,
+      "jump_rate": 0.125
     },
     {
       "episode": 25,
-      "total_reward": 927.28,
-      "steps": 6130,
-      "pipes_passed": 36,
-      "jump_count": 439,
-      "jump_rate": 0.0716
+      "total_reward": 45.7,
+      "steps": 650,
+      "pipes_passed": 3,
+      "jump_count": 80,
+      "jump_rate": 0.1231
     },
     {
       "episode": 26,
-      "total_reward": 874.45,
-      "steps": 5796,
-      "pipes_passed": 34,
-      "jump_count": 496,
-      "jump_rate": 0.0856
+      "total_reward": 2842.86,
+      "steps": 18013,
+      "pipes_passed": 107,
+      "jump_count": 2166,
+      "jump_rate": 0.1202
     },
     {
       "episode": 27,
-      "total_reward": 391.09,
-      "steps": 2790,
-      "pipes_passed": 16,
-      "jump_count": 219,
-      "jump_rate": 0.0785
+      "total_reward": 3622.44,
+      "steps": 22850,
+      "pipes_passed": 136,
+      "jump_count": 2754,
+      "jump_rate": 0.1205
     },
     {
       "episode": 28,
-      "total_reward": 364.42,
-      "steps": 2623,
-      "pipes_passed": 15,
-      "jump_count": 222,
-      "jump_rate": 0.0846
+      "total_reward": 555.24,
+      "steps": 3806,
+      "pipes_passed": 22,
+      "jump_count": 474,
+      "jump_rate": 0.1245
     },
     {
       "episode": 29,
-      "total_reward": 230.47,
-      "steps": 1788,
-      "pipes_passed": 10,
-      "jump_count": 177,
-      "jump_rate": 0.099
+      "total_reward": 1685.64,
+      "steps": 10830,
+      "pipes_passed": 64,
+      "jump_count": 1274,
+      "jump_rate": 0.1176
     },
     {
       "episode": 30,
-      "total_reward": 417.71,
-      "steps": 2957,
-      "pipes_passed": 17,
-      "jump_count": 212,
-      "jump_rate": 0.0717
+      "total_reward": 313.75,
+      "steps": 2313,
+      "pipes_passed": 13,
+      "jump_count": 255,
+      "jump_rate": 0.1102
     },
     {
       "episode": 31,
-      "total_reward": 122.77,
-      "steps": 1120,
-      "pipes_passed": 6,
-      "jump_count": 87,
-      "jump_rate": 0.0777
+      "total_reward": 17.02,
+      "steps": 469,
+      "pipes_passed": 2,
+      "jump_count": 22,
+      "jump_rate": 0.0469
     },
     {
       "episode": 32,
-      "total_reward": 337.54,
-      "steps": 2456,
-      "pipes_passed": 14,
-      "jump_count": 204,
-      "jump_rate": 0.0831
+      "total_reward": 4672.01,
+      "steps": 29369,
+      "pipes_passed": 175,
+      "jump_count": 3521,
+      "jump_rate": 0.1199
     },
     {
       "episode": 33,
-      "total_reward": 1197.45,
-      "steps": 7800,
-      "pipes_passed": 46,
-      "jump_count": 755,
-      "jump_rate": 0.0968
+      "total_reward": 7119.78,
+      "steps": 44562,
+      "pipes_passed": 266,
+      "jump_count": 5368,
+      "jump_rate": 0.1205
     },
     {
       "episode": 34,
-      "total_reward": 364.04,
-      "steps": 2623,
-      "pipes_passed": 15,
-      "jump_count": 184,
-      "jump_rate": 0.0701
+      "total_reward": 448.55,
+      "steps": 3148,
+      "pipes_passed": 18,
+      "jump_count": 385,
+      "jump_rate": 0.1223
     },
     {
       "episode": 35,
-      "total_reward": 337.4,
-      "steps": 2456,
-      "pipes_passed": 14,
-      "jump_count": 191,
-      "jump_rate": 0.0778
+      "total_reward": 1282.71,
+      "steps": 8325,
+      "pipes_passed": 49,
+      "jump_count": 1031,
+      "jump_rate": 0.1238
     },
     {
       "episode": 36,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 19,
-      "jump_rate": 0.1624
+      "total_reward": 1416.67,
+      "steps": 9158,
+      "pipes_passed": 54,
+      "jump_count": 1097,
+      "jump_rate": 0.1198
     },
     {
       "episode": 37,
-      "total_reward": 391.03,
-      "steps": 2790,
-      "pipes_passed": 16,
-      "jump_count": 213,
-      "jump_rate": 0.0763
+      "total_reward": 3704.35,
+      "steps": 23353,
+      "pipes_passed": 139,
+      "jump_count": 2915,
+      "jump_rate": 0.1248
     },
     {
       "episode": 38,
-      "total_reward": 445.25,
-      "steps": 3124,
-      "pipes_passed": 18,
-      "jump_count": 296,
-      "jump_rate": 0.0948
+      "total_reward": 851.27,
+      "steps": 5653,
+      "pipes_passed": 33,
+      "jump_count": 607,
+      "jump_rate": 0.1074
     },
     {
       "episode": 39,
-      "total_reward": 1464.29,
-      "steps": 9470,
-      "pipes_passed": 56,
-      "jump_count": 739,
-      "jump_rate": 0.078
+      "total_reward": 1281.96,
+      "steps": 8322,
+      "pipes_passed": 49,
+      "jump_count": 986,
+      "jump_rate": 0.1185
     },
     {
       "episode": 40,
-      "total_reward": 820.29,
-      "steps": 5462,
-      "pipes_passed": 32,
-      "jump_count": 419,
-      "jump_rate": 0.0767
+      "total_reward": 12960.07,
+      "steps": 80811,
+      "pipes_passed": 483,
+      "jump_count": 9907,
+      "jump_rate": 0.1226
     },
     {
       "episode": 41,
-      "total_reward": 1732.48,
-      "steps": 11140,
-      "pipes_passed": 66,
-      "jump_count": 859,
-      "jump_rate": 0.0771
+      "total_reward": 286.1,
+      "steps": 2139,
+      "pipes_passed": 12,
+      "jump_count": 230,
+      "jump_rate": 0.1075
     },
     {
       "episode": 42,
-      "total_reward": 1571.24,
-      "steps": 10138,
-      "pipes_passed": 60,
-      "jump_count": 755,
-      "jump_rate": 0.0745
+      "total_reward": 2788.91,
+      "steps": 17675,
+      "pipes_passed": 105,
+      "jump_count": 2151,
+      "jump_rate": 0.1217
     },
     {
       "episode": 43,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 20,
-      "jump_rate": 0.1709
+      "total_reward": 2154.83,
+      "steps": 13782,
+      "pipes_passed": 82,
+      "jump_count": 1673,
+      "jump_rate": 0.1214
     },
     {
       "episode": 44,
-      "total_reward": 69.39,
-      "steps": 786,
-      "pipes_passed": 4,
-      "jump_count": 90,
-      "jump_rate": 0.1145
+      "total_reward": 4320.83,
+      "steps": 27182,
+      "pipes_passed": 162,
+      "jump_count": 3273,
+      "jump_rate": 0.1204
     },
     {
       "episode": 45,
-      "total_reward": 1356.77,
-      "steps": 8802,
-      "pipes_passed": 52,
-      "jump_count": 667,
-      "jump_rate": 0.0758
+      "total_reward": 1309.61,
+      "steps": 8500,
+      "pipes_passed": 50,
+      "jump_count": 971,
+      "jump_rate": 0.1142
     },
     {
       "episode": 46,
-      "total_reward": 659.81,
-      "steps": 4460,
-      "pipes_passed": 26,
-      "jump_count": 392,
-      "jump_rate": 0.0879
+      "total_reward": 2384.41,
+      "steps": 15171,
+      "pipes_passed": 90,
+      "jump_count": 1741,
+      "jump_rate": 0.1148
     },
     {
       "episode": 47,
-      "total_reward": 364.46,
-      "steps": 2623,
-      "pipes_passed": 15,
-      "jump_count": 226,
-      "jump_rate": 0.0862
+      "total_reward": 1820.26,
+      "steps": 11663,
+      "pipes_passed": 69,
+      "jump_count": 1406,
+      "jump_rate": 0.1206
     },
     {
       "episode": 48,
-      "total_reward": 69.25,
-      "steps": 786,
-      "pipes_passed": 4,
-      "jump_count": 75,
-      "jump_rate": 0.0954
+      "total_reward": 1578.0,
+      "steps": 10164,
+      "pipes_passed": 60,
+      "jump_count": 1170,
+      "jump_rate": 0.1151
     },
     {
       "episode": 49,
-      "total_reward": 69.45,
-      "steps": 786,
-      "pipes_passed": 4,
-      "jump_count": 96,
+      "total_reward": 905.81,
+      "steps": 5986,
+      "pipes_passed": 35,
+      "jump_count": 731,
       "jump_rate": 0.1221
     },
     {
       "episode": 50,
-      "total_reward": 632.89,
-      "steps": 4293,
-      "pipes_passed": 25,
-      "jump_count": 370,
-      "jump_rate": 0.0862
+      "total_reward": 582.4,
+      "steps": 3979,
+      "pipes_passed": 23,
+      "jump_count": 460,
+      "jump_rate": 0.1156
     },
     {
       "episode": 51,
-      "total_reward": 42.4,
-      "steps": 619,
-      "pipes_passed": 3,
-      "jump_count": 61,
-      "jump_rate": 0.0985
+      "total_reward": 13039.63,
+      "steps": 81312,
+      "pipes_passed": 486,
+      "jump_count": 9853,
+      "jump_rate": 0.1212
     },
     {
       "episode": 52,
-      "total_reward": 391.2,
-      "steps": 2790,
-      "pipes_passed": 16,
-      "jump_count": 230,
-      "jump_rate": 0.0824
+      "total_reward": 5184.15,
+      "steps": 32540,
+      "pipes_passed": 194,
+      "jump_count": 4025,
+      "jump_rate": 0.1237
     },
     {
       "episode": 53,
-      "total_reward": 605.46,
-      "steps": 4126,
-      "pipes_passed": 24,
-      "jump_count": 296,
-      "jump_rate": 0.0717
+      "total_reward": 341.78,
+      "steps": 2488,
+      "pipes_passed": 14,
+      "jump_count": 308,
+      "jump_rate": 0.1238
     },
     {
       "episode": 54,
-      "total_reward": 391.58,
-      "steps": 2790,
-      "pipes_passed": 16,
-      "jump_count": 269,
-      "jump_rate": 0.0964
+      "total_reward": 16186.27,
+      "steps": 100842,
+      "pipes_passed": 603,
+      "jump_count": 12217,
+      "jump_rate": 0.1211
     },
     {
       "episode": 55,
-      "total_reward": 256.98,
-      "steps": 1955,
-      "pipes_passed": 11,
-      "jump_count": 159,
-      "jump_rate": 0.0813
+      "total_reward": 503.29,
+      "steps": 3490,
+      "pipes_passed": 20,
+      "jump_count": 439,
+      "jump_rate": 0.1258
     },
     {
       "episode": 56,
-      "total_reward": 445.13,
-      "steps": 3124,
-      "pipes_passed": 18,
-      "jump_count": 284,
-      "jump_rate": 0.0909
+      "total_reward": 1524.57,
+      "steps": 9825,
+      "pipes_passed": 58,
+      "jump_count": 1217,
+      "jump_rate": 0.1239
     },
     {
       "episode": 57,
-      "total_reward": 42.44,
-      "steps": 619,
-      "pipes_passed": 3,
-      "jump_count": 64,
-      "jump_rate": 0.1034
+      "total_reward": 2197.0,
+      "steps": 14001,
+      "pipes_passed": 83,
+      "jump_count": 1700,
+      "jump_rate": 0.1214
     },
     {
       "episode": 58,
-      "total_reward": 739.95,
-      "steps": 4961,
-      "pipes_passed": 29,
-      "jump_count": 396,
-      "jump_rate": 0.0798
+      "total_reward": 1578.1,
+      "steps": 10160,
+      "pipes_passed": 60,
+      "jump_count": 1220,
+      "jump_rate": 0.1201
     },
     {
       "episode": 59,
-      "total_reward": 42.5,
-      "steps": 619,
-      "pipes_passed": 3,
-      "jump_count": 71,
-      "jump_rate": 0.1147
+      "total_reward": 1687.16,
+      "steps": 10837,
+      "pipes_passed": 64,
+      "jump_count": 1356,
+      "jump_rate": 0.1251
     },
     {
       "episode": 60,
-      "total_reward": 149.65,
-      "steps": 1287,
-      "pipes_passed": 7,
-      "jump_count": 105,
-      "jump_rate": 0.0816
+      "total_reward": 4133.89,
+      "steps": 26035,
+      "pipes_passed": 155,
+      "jump_count": 3049,
+      "jump_rate": 0.1171
     },
     {
       "episode": 61,
-      "total_reward": 42.39,
-      "steps": 619,
-      "pipes_passed": 3,
-      "jump_count": 59,
-      "jump_rate": 0.0953
+      "total_reward": 832.63,
+      "steps": 5561,
+      "pipes_passed": 33,
+      "jump_count": 663,
+      "jump_rate": 0.1192
     },
     {
       "episode": 62,
-      "total_reward": 230.27,
-      "steps": 1788,
-      "pipes_passed": 10,
-      "jump_count": 158,
-      "jump_rate": 0.0884
+      "total_reward": 1264.91,
+      "steps": 8257,
+      "pipes_passed": 49,
+      "jump_count": 931,
+      "jump_rate": 0.1128
     },
     {
       "episode": 63,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 19,
-      "jump_rate": 0.1624
+      "total_reward": 1713.82,
+      "steps": 10999,
+      "pipes_passed": 65,
+      "jump_count": 1402,
+      "jump_rate": 0.1275
     },
     {
       "episode": 64,
-      "total_reward": 176.37,
-      "steps": 1454,
-      "pipes_passed": 8,
-      "jump_count": 107,
-      "jump_rate": 0.0736
+      "total_reward": 1255.69,
+      "steps": 8157,
+      "pipes_passed": 48,
+      "jump_count": 1009,
+      "jump_rate": 0.1237
     },
     {
       "episode": 65,
-      "total_reward": 256.82,
-      "steps": 1955,
+      "total_reward": 260.84,
+      "steps": 1986,
       "pipes_passed": 11,
-      "jump_count": 143,
-      "jump_rate": 0.0731
+      "jump_count": 234,
+      "jump_rate": 0.1178
     },
     {
       "episode": 66,
-      "total_reward": 552.61,
-      "steps": 3792,
-      "pipes_passed": 22,
-      "jump_count": 351,
-      "jump_rate": 0.0926
+      "total_reward": 12346.07,
+      "steps": 77036,
+      "pipes_passed": 461,
+      "jump_count": 9257,
+      "jump_rate": 0.1202
     },
     {
       "episode": 67,
-      "total_reward": 150.03,
-      "steps": 1287,
-      "pipes_passed": 7,
-      "jump_count": 144,
-      "jump_rate": 0.1119
+      "total_reward": 125.51,
+      "steps": 1144,
+      "pipes_passed": 6,
+      "jump_count": 121,
+      "jump_rate": 0.1058
     },
     {
       "episode": 68,
-      "total_reward": 203.63,
-      "steps": 1621,
-      "pipes_passed": 9,
-      "jump_count": 164,
-      "jump_rate": 0.1012
+      "total_reward": 1309.47,
+      "steps": 8491,
+      "pipes_passed": 50,
+      "jump_count": 1047,
+      "jump_rate": 0.1233
     },
     {
       "episode": 69,
-      "total_reward": 149.8,
-      "steps": 1287,
-      "pipes_passed": 7,
-      "jump_count": 120,
-      "jump_rate": 0.0932
+      "total_reward": 7443.31,
+      "steps": 46567,
+      "pipes_passed": 278,
+      "jump_count": 5671,
+      "jump_rate": 0.1218
     },
     {
       "episode": 70,
-      "total_reward": 766.73,
-      "steps": 5128,
-      "pipes_passed": 30,
-      "jump_count": 404,
-      "jump_rate": 0.0788
+      "total_reward": 421.23,
+      "steps": 2979,
+      "pipes_passed": 17,
+      "jump_count": 343,
+      "jump_rate": 0.1151
     },
     {
       "episode": 71,
-      "total_reward": 471.72,
-      "steps": 3291,
-      "pipes_passed": 19,
-      "jump_count": 272,
-      "jump_rate": 0.0826
+      "total_reward": 15863.39,
+      "steps": 98837,
+      "pipes_passed": 591,
+      "jump_count": 11979,
+      "jump_rate": 0.1212
     },
     {
       "episode": 72,
-      "total_reward": 982.73,
-      "steps": 6464,
-      "pipes_passed": 38,
-      "jump_count": 643,
-      "jump_rate": 0.0995
+      "total_reward": 530.13,
+      "steps": 3657,
+      "pipes_passed": 21,
+      "jump_count": 453,
+      "jump_rate": 0.1239
     },
     {
       "episode": 73,
-      "total_reward": 96.08,
-      "steps": 953,
-      "pipes_passed": 5,
-      "jump_count": 89,
-      "jump_rate": 0.0934
+      "total_reward": 2547.03,
+      "steps": 16171,
+      "pipes_passed": 96,
+      "jump_count": 2003,
+      "jump_rate": 0.1239
     },
     {
       "episode": 74,
-      "total_reward": 418.19,
-      "steps": 2957,
-      "pipes_passed": 17,
-      "jump_count": 260,
-      "jump_rate": 0.0879
+      "total_reward": 286.74,
+      "steps": 2146,
+      "pipes_passed": 12,
+      "jump_count": 224,
+      "jump_rate": 0.1044
     },
     {
       "episode": 75,
-      "total_reward": 203.32,
-      "steps": 1621,
-      "pipes_passed": 9,
-      "jump_count": 132,
-      "jump_rate": 0.0814
+      "total_reward": 717.08,
+      "steps": 4814,
+      "pipes_passed": 28,
+      "jump_count": 578,
+      "jump_rate": 0.1201
     },
     {
       "episode": 76,
-      "total_reward": 122.67,
-      "steps": 1120,
-      "pipes_passed": 6,
-      "jump_count": 77,
-      "jump_rate": 0.0688
+      "total_reward": 1255.74,
+      "steps": 8158,
+      "pipes_passed": 48,
+      "jump_count": 1004,
+      "jump_rate": 0.1231
     },
     {
       "episode": 77,
-      "total_reward": 900.79,
-      "steps": 5963,
-      "pipes_passed": 35,
-      "jump_count": 459,
-      "jump_rate": 0.077
+      "total_reward": 2546.96,
+      "steps": 16181,
+      "pipes_passed": 96,
+      "jump_count": 1896,
+      "jump_rate": 0.1172
     },
     {
       "episode": 78,
-      "total_reward": 1034.72,
-      "steps": 6798,
-      "pipes_passed": 40,
-      "jump_count": 503,
-      "jump_rate": 0.074
+      "total_reward": 4486.18,
+      "steps": 28206,
+      "pipes_passed": 168,
+      "jump_count": 3568,
+      "jump_rate": 0.1265
     },
     {
       "episode": 79,
-      "total_reward": 15.46,
-      "steps": 452,
-      "pipes_passed": 2,
-      "jump_count": 36,
-      "jump_rate": 0.0796
+      "total_reward": 933.78,
+      "steps": 6162,
+      "pipes_passed": 36,
+      "jump_count": 768,
+      "jump_rate": 0.1246
     },
     {
       "episode": 80,
-      "total_reward": 1142.53,
-      "steps": 7466,
-      "pipes_passed": 44,
-      "jump_count": 604,
-      "jump_rate": 0.0809
+      "total_reward": 3651.52,
+      "steps": 23029,
+      "pipes_passed": 137,
+      "jump_count": 2872,
+      "jump_rate": 0.1247
     },
     {
       "episode": 81,
-      "total_reward": 740.13,
-      "steps": 4961,
-      "pipes_passed": 29,
-      "jump_count": 413,
-      "jump_rate": 0.0832
+      "total_reward": 1669.92,
+      "steps": 10775,
+      "pipes_passed": 64,
+      "jump_count": 1252,
+      "jump_rate": 0.1162
     },
     {
       "episode": 82,
-      "total_reward": 337.35,
-      "steps": 2456,
-      "pipes_passed": 14,
-      "jump_count": 186,
-      "jump_rate": 0.0757
+      "total_reward": 635.85,
+      "steps": 4312,
+      "pipes_passed": 25,
+      "jump_count": 475,
+      "jump_rate": 0.1102
     },
     {
       "episode": 83,
-      "total_reward": -38.21,
-      "steps": 117,
-      "pipes_passed": 0,
-      "jump_count": 20,
-      "jump_rate": 0.1709
+      "total_reward": 314.68,
+      "steps": 2321,
+      "pipes_passed": 13,
+      "jump_count": 268,
+      "jump_rate": 0.1155
     },
     {
       "episode": 84,
-      "total_reward": 203.51,
-      "steps": 1621,
-      "pipes_passed": 9,
-      "jump_count": 151,
-      "jump_rate": 0.0932
+      "total_reward": 1120.76,
+      "steps": 7319,
+      "pipes_passed": 43,
+      "jump_count": 896,
+      "jump_rate": 0.1224
     },
     {
       "episode": 85,
-      "total_reward": 122.93,
-      "steps": 1120,
-      "pipes_passed": 6,
-      "jump_count": 104,
-      "jump_rate": 0.0929
+      "total_reward": 7388.62,
+      "steps": 46229,
+      "pipes_passed": 276,
+      "jump_count": 5582,
+      "jump_rate": 0.1207
     },
     {
       "episode": 86,
-      "total_reward": 283.63,
-      "steps": 2122,
-      "pipes_passed": 12,
-      "jump_count": 154,
-      "jump_rate": 0.0726
+      "total_reward": 3419.68,
+      "steps": 21634,
+      "pipes_passed": 129,
+      "jump_count": 2638,
+      "jump_rate": 0.1219
     },
     {
       "episode": 87,
-      "total_reward": 954.8,
-      "steps": 6297,
-      "pipes_passed": 37,
-      "jump_count": 520,
-      "jump_rate": 0.0826
+      "total_reward": 3248.24,
+      "steps": 20523,
+      "pipes_passed": 122,
+      "jump_count": 2604,
+      "jump_rate": 0.1269
     },
     {
       "episode": 88,
-      "total_reward": 15.6,
-      "steps": 452,
-      "pipes_passed": 2,
-      "jump_count": 50,
-      "jump_rate": 0.1106
+      "total_reward": 745.07,
+      "steps": 4993,
+      "pipes_passed": 29,
+      "jump_count": 587,
+      "jump_rate": 0.1176
     },
     {
       "episode": 89,
-      "total_reward": 632.91,
-      "steps": 4293,
-      "pipes_passed": 25,
-      "jump_count": 371,
-      "jump_rate": 0.0864
+      "total_reward": -8.27,
+      "steps": 315,
+      "pipes_passed": 1,
+      "jump_count": 33,
+      "jump_rate": 0.1048
     },
     {
       "episode": 90,
-      "total_reward": 69.25,
-      "steps": 786,
-      "pipes_passed": 4,
-      "jump_count": 75,
-      "jump_rate": 0.0954
+      "total_reward": 5317.62,
+      "steps": 33383,
+      "pipes_passed": 199,
+      "jump_count": 3942,
+      "jump_rate": 0.1181
     },
     {
       "episode": 91,
-      "total_reward": 793.32,
-      "steps": 5295,
-      "pipes_passed": 31,
-      "jump_count": 392,
-      "jump_rate": 0.074
+      "total_reward": 1928.08,
+      "steps": 12333,
+      "pipes_passed": 73,
+      "jump_count": 1488,
+      "jump_rate": 0.1207
     },
     {
       "episode": 92,
-      "total_reward": 122.66,
-      "steps": 1120,
-      "pipes_passed": 6,
-      "jump_count": 77,
-      "jump_rate": 0.0688
+      "total_reward": 475.26,
+      "steps": 3311,
+      "pipes_passed": 19,
+      "jump_count": 426,
+      "jump_rate": 0.1287
     },
     {
       "episode": 93,
-      "total_reward": 96.25,
-      "steps": 953,
-      "pipes_passed": 5,
-      "jump_count": 106,
-      "jump_rate": 0.1112
+      "total_reward": 4241.48,
+      "steps": 26693,
+      "pipes_passed": 159,
+      "jump_count": 3228,
+      "jump_rate": 0.1209
     },
     {
       "episode": 94,
-      "total_reward": 471.41,
-      "steps": 3291,
-      "pipes_passed": 19,
-      "jump_count": 242,
-      "jump_rate": 0.0735
+      "total_reward": 4242.36,
+      "steps": 26698,
+      "pipes_passed": 159,
+      "jump_count": 3266,
+      "jump_rate": 0.1223
     },
     {
       "episode": 95,
-      "total_reward": 819.73,
-      "steps": 5462,
-      "pipes_passed": 32,
-      "jump_count": 363,
-      "jump_rate": 0.0665
+      "total_reward": 960.45,
+      "steps": 6323,
+      "pipes_passed": 37,
+      "jump_count": 825,
+      "jump_rate": 0.1305
     },
     {
       "episode": 96,
-      "total_reward": 176.28,
-      "steps": 1454,
-      "pipes_passed": 8,
-      "jump_count": 99,
-      "jump_rate": 0.0681
+      "total_reward": 1819.76,
+      "steps": 11665,
+      "pipes_passed": 69,
+      "jump_count": 1336,
+      "jump_rate": 0.1145
     },
     {
       "episode": 97,
-      "total_reward": 257.1,
-      "steps": 1955,
-      "pipes_passed": 11,
-      "jump_count": 171,
-      "jump_rate": 0.0875
+      "total_reward": 2169.64,
+      "steps": 13832,
+      "pipes_passed": 82,
+      "jump_count": 1654,
+      "jump_rate": 0.1196
     },
     {
       "episode": 98,
-      "total_reward": 525.5,
-      "steps": 3625,
-      "pipes_passed": 21,
-      "jump_count": 310,
-      "jump_rate": 0.0855
+      "total_reward": 636.64,
+      "steps": 4317,
+      "pipes_passed": 25,
+      "jump_count": 504,
+      "jump_rate": 0.1167
     },
     {
       "episode": 99,
-      "total_reward": 579.03,
-      "steps": 3959,
-      "pipes_passed": 23,
-      "jump_count": 324,
-      "jump_rate": 0.0818
+      "total_reward": 5263.28,
+      "steps": 33042,
+      "pipes_passed": 197,
+      "jump_count": 3918,
+      "jump_rate": 0.1186
+    },
+    {
+      "episode": 100,
+      "total_reward": 2285.69,
+      "steps": 14578,
+      "pipes_passed": 87,
+      "jump_count": 1799,
+      "jump_rate": 0.1234
+    },
+    {
+      "episode": 101,
+      "total_reward": 3084.53,
+      "steps": 19515,
+      "pipes_passed": 116,
+      "jump_count": 2313,
+      "jump_rate": 0.1185
+    },
+    {
+      "episode": 102,
+      "total_reward": 1713.81,
+      "steps": 11005,
+      "pipes_passed": 65,
+      "jump_count": 1341,
+      "jump_rate": 0.1219
+    },
+    {
+      "episode": 103,
+      "total_reward": 448.94,
+      "steps": 3156,
+      "pipes_passed": 18,
+      "jump_count": 344,
+      "jump_rate": 0.109
+    },
+    {
+      "episode": 104,
+      "total_reward": 1256.17,
+      "steps": 8166,
+      "pipes_passed": 48,
+      "jump_count": 967,
+      "jump_rate": 0.1184
+    },
+    {
+      "episode": 105,
+      "total_reward": 3812.1,
+      "steps": 24031,
+      "pipes_passed": 143,
+      "jump_count": 2910,
+      "jump_rate": 0.1211
+    },
+    {
+      "episode": 106,
+      "total_reward": 2843.57,
+      "steps": 18012,
+      "pipes_passed": 107,
+      "jump_count": 2247,
+      "jump_rate": 0.1248
+    },
+    {
+      "episode": 107,
+      "total_reward": 556.24,
+      "steps": 3821,
+      "pipes_passed": 22,
+      "jump_count": 424,
+      "jump_rate": 0.111
+    },
+    {
+      "episode": 108,
+      "total_reward": 1014.03,
+      "steps": 6656,
+      "pipes_passed": 39,
+      "jump_count": 853,
+      "jump_rate": 0.1282
+    },
+    {
+      "episode": 109,
+      "total_reward": 1697.25,
+      "steps": 10948,
+      "pipes_passed": 65,
+      "jump_count": 1255,
+      "jump_rate": 0.1146
+    },
+    {
+      "episode": 110,
+      "total_reward": 1551.27,
+      "steps": 9993,
+      "pipes_passed": 59,
+      "jump_count": 1207,
+      "jump_rate": 0.1208
+    },
+    {
+      "episode": 111,
+      "total_reward": 528.37,
+      "steps": 3647,
+      "pipes_passed": 21,
+      "jump_count": 377,
+      "jump_rate": 0.1034
+    },
+    {
+      "episode": 112,
+      "total_reward": 4807.01,
+      "steps": 30203,
+      "pipes_passed": 180,
+      "jump_count": 3681,
+      "jump_rate": 0.1219
+    },
+    {
+      "episode": 113,
+      "total_reward": 2358.06,
+      "steps": 15004,
+      "pipes_passed": 89,
+      "jump_count": 1776,
+      "jump_rate": 0.1184
+    },
+    {
+      "episode": 114,
+      "total_reward": 770.38,
+      "steps": 5147,
+      "pipes_passed": 30,
+      "jump_count": 578,
+      "jump_rate": 0.1123
+    },
+    {
+      "episode": 115,
+      "total_reward": 6366.63,
+      "steps": 39883,
+      "pipes_passed": 238,
+      "jump_count": 4843,
+      "jump_rate": 0.1214
+    },
+    {
+      "episode": 116,
+      "total_reward": 4806.58,
+      "steps": 30200,
+      "pipes_passed": 180,
+      "jump_count": 3668,
+      "jump_rate": 0.1215
+    },
+    {
+      "episode": 117,
+      "total_reward": 207.15,
+      "steps": 1653,
+      "pipes_passed": 9,
+      "jump_count": 195,
+      "jump_rate": 0.118
+    },
+    {
+      "episode": 118,
+      "total_reward": 4833.21,
+      "steps": 30372,
+      "pipes_passed": 181,
+      "jump_count": 3611,
+      "jump_rate": 0.1189
+    },
+    {
+      "episode": 119,
+      "total_reward": 1604.79,
+      "steps": 10330,
+      "pipes_passed": 61,
+      "jump_count": 1189,
+      "jump_rate": 0.1151
+    },
+    {
+      "episode": 120,
+      "total_reward": 4011.08,
+      "steps": 25304,
+      "pipes_passed": 151,
+      "jump_count": 3078,
+      "jump_rate": 0.1216
+    },
+    {
+      "episode": 121,
+      "total_reward": 3085.19,
+      "steps": 19515,
+      "pipes_passed": 116,
+      "jump_count": 2379,
+      "jump_rate": 0.1219
+    },
+    {
+      "episode": 122,
+      "total_reward": 1390.53,
+      "steps": 8994,
+      "pipes_passed": 53,
+      "jump_count": 1123,
+      "jump_rate": 0.1249
+    },
+    {
+      "episode": 123,
+      "total_reward": 1199.57,
+      "steps": 7807,
+      "pipes_passed": 46,
+      "jump_count": 897,
+      "jump_rate": 0.1149
+    },
+    {
+      "episode": 124,
+      "total_reward": 313.44,
+      "steps": 2312,
+      "pipes_passed": 13,
+      "jump_count": 234,
+      "jump_rate": 0.1012
+    },
+    {
+      "episode": 125,
+      "total_reward": 4402.31,
+      "steps": 27697,
+      "pipes_passed": 165,
+      "jump_count": 3271,
+      "jump_rate": 0.1181
+    },
+    {
+      "episode": 126,
+      "total_reward": 4468.54,
+      "steps": 28147,
+      "pipes_passed": 168,
+      "jump_count": 3394,
+      "jump_rate": 0.1206
+    },
+    {
+      "episode": 127,
+      "total_reward": 3058.06,
+      "steps": 19346,
+      "pipes_passed": 115,
+      "jump_count": 2356,
+      "jump_rate": 0.1218
+    },
+    {
+      "episode": 128,
+      "total_reward": 2251.25,
+      "steps": 14336,
+      "pipes_passed": 85,
+      "jump_count": 1775,
+      "jump_rate": 0.1238
+    },
+    {
+      "episode": 129,
+      "total_reward": 8036.16,
+      "steps": 50242,
+      "pipes_passed": 300,
+      "jump_count": 6206,
+      "jump_rate": 0.1235
+    },
+    {
+      "episode": 130,
+      "total_reward": 4215.38,
+      "steps": 26530,
+      "pipes_passed": 158,
+      "jump_count": 3248,
+      "jump_rate": 0.1224
+    },
+    {
+      "episode": 131,
+      "total_reward": 1200.74,
+      "steps": 7817,
+      "pipes_passed": 46,
+      "jump_count": 914,
+      "jump_rate": 0.1169
+    },
+    {
+      "episode": 132,
+      "total_reward": 18148.52,
+      "steps": 113025,
+      "pipes_passed": 676,
+      "jump_count": 13612,
+      "jump_rate": 0.1204
+    },
+    {
+      "episode": 133,
+      "total_reward": 2681.75,
+      "steps": 17008,
+      "pipes_passed": 101,
+      "jump_count": 2105,
+      "jump_rate": 0.1238
+    },
+    {
+      "episode": 134,
+      "total_reward": 771.25,
+      "steps": 5155,
+      "pipes_passed": 30,
+      "jump_count": 585,
+      "jump_rate": 0.1135
+    },
+    {
+      "episode": 135,
+      "total_reward": 3891.62,
+      "steps": 24525,
+      "pipes_passed": 146,
+      "jump_count": 2922,
+      "jump_rate": 0.1191
+    },
+    {
+      "episode": 136,
+      "total_reward": 2466.6,
+      "steps": 15673,
+      "pipes_passed": 93,
+      "jump_count": 1940,
+      "jump_rate": 0.1238
+    },
+    {
+      "episode": 137,
+      "total_reward": 691.23,
+      "steps": 4658,
+      "pipes_passed": 27,
+      "jump_count": 553,
+      "jump_rate": 0.1187
+    },
+    {
+      "episode": 138,
+      "total_reward": 1208.51,
+      "steps": 7897,
+      "pipes_passed": 47,
+      "jump_count": 891,
+      "jump_rate": 0.1128
+    },
+    {
+      "episode": 139,
+      "total_reward": 3918.77,
+      "steps": 24690,
+      "pipes_passed": 147,
+      "jump_count": 2987,
+      "jump_rate": 0.121
+    },
+    {
+      "episode": 140,
+      "total_reward": 1740.0,
+      "steps": 11168,
+      "pipes_passed": 66,
+      "jump_count": 1330,
+      "jump_rate": 0.1191
+    },
+    {
+      "episode": 141,
+      "total_reward": 3219.85,
+      "steps": 20352,
+      "pipes_passed": 121,
+      "jump_count": 2475,
+      "jump_rate": 0.1216
+    },
+    {
+      "episode": 142,
+      "total_reward": 5184.11,
+      "steps": 32536,
+      "pipes_passed": 194,
+      "jump_count": 4061,
+      "jump_rate": 0.1248
+    },
+    {
+      "episode": 143,
+      "total_reward": 3999.65,
+      "steps": 25189,
+      "pipes_passed": 150,
+      "jump_count": 3085,
+      "jump_rate": 0.1225
+    },
+    {
+      "episode": 144,
+      "total_reward": 3246.78,
+      "steps": 20520,
+      "pipes_passed": 122,
+      "jump_count": 2488,
+      "jump_rate": 0.1212
+    },
+    {
+      "episode": 145,
+      "total_reward": 1320.41,
+      "steps": 8604,
+      "pipes_passed": 51,
+      "jump_count": 1011,
+      "jump_rate": 0.1175
+    },
+    {
+      "episode": 146,
+      "total_reward": 4860.42,
+      "steps": 30539,
+      "pipes_passed": 182,
+      "jump_count": 3662,
+      "jump_rate": 0.1199
+    },
+    {
+      "episode": 147,
+      "total_reward": 5668.43,
+      "steps": 35552,
+      "pipes_passed": 212,
+      "jump_count": 4333,
+      "jump_rate": 0.1219
+    },
+    {
+      "episode": 148,
+      "total_reward": 3085.38,
+      "steps": 19515,
+      "pipes_passed": 116,
+      "jump_count": 2398,
+      "jump_rate": 0.1229
+    },
+    {
+      "episode": 149,
+      "total_reward": 9149.18,
+      "steps": 57208,
+      "pipes_passed": 342,
+      "jump_count": 6848,
+      "jump_rate": 0.1197
+    },
+    {
+      "episode": 150,
+      "total_reward": 8438.68,
+      "steps": 52745,
+      "pipes_passed": 315,
+      "jump_count": 6428,
+      "jump_rate": 0.1219
+    },
+    {
+      "episode": 151,
+      "total_reward": 2116.58,
+      "steps": 13510,
+      "pipes_passed": 80,
+      "jump_count": 1568,
+      "jump_rate": 0.1161
+    },
+    {
+      "episode": 152,
+      "total_reward": 1793.41,
+      "steps": 11496,
+      "pipes_passed": 68,
+      "jump_count": 1391,
+      "jump_rate": 0.121
+    },
+    {
+      "episode": 153,
+      "total_reward": 19092.56,
+      "steps": 118875,
+      "pipes_passed": 711,
+      "jump_count": 14516,
+      "jump_rate": 0.1221
+    },
+    {
+      "episode": 154,
+      "total_reward": 986.95,
+      "steps": 6496,
+      "pipes_passed": 38,
+      "jump_count": 745,
+      "jump_rate": 0.1147
+    },
+    {
+      "episode": 155,
+      "total_reward": 3581.53,
+      "steps": 22637,
+      "pipes_passed": 135,
+      "jump_count": 2793,
+      "jump_rate": 0.1234
+    },
+    {
+      "episode": 156,
+      "total_reward": 960.0,
+      "steps": 6321,
+      "pipes_passed": 37,
+      "jump_count": 800,
+      "jump_rate": 0.1266
+    },
+    {
+      "episode": 157,
+      "total_reward": 3758.31,
+      "steps": 23689,
+      "pipes_passed": 141,
+      "jump_count": 2951,
+      "jump_rate": 0.1246
+    },
+    {
+      "episode": 158,
+      "total_reward": 9458.84,
+      "steps": 59092,
+      "pipes_passed": 353,
+      "jump_count": 6974,
+      "jump_rate": 0.118
+    },
+    {
+      "episode": 159,
+      "total_reward": 1551.48,
+      "steps": 9994,
+      "pipes_passed": 59,
+      "jump_count": 1218,
+      "jump_rate": 0.1219
+    },
+    {
+      "episode": 160,
+      "total_reward": 2197.68,
+      "steps": 14009,
+      "pipes_passed": 83,
+      "jump_count": 1688,
+      "jump_rate": 0.1205
+    },
+    {
+      "episode": 161,
+      "total_reward": 340.49,
+      "steps": 2479,
+      "pipes_passed": 14,
+      "jump_count": 269,
+      "jump_rate": 0.1085
+    },
+    {
+      "episode": 162,
+      "total_reward": 1254.8,
+      "steps": 8155,
+      "pipes_passed": 48,
+      "jump_count": 940,
+      "jump_rate": 0.1153
+    },
+    {
+      "episode": 163,
+      "total_reward": 1901.59,
+      "steps": 12170,
+      "pipes_passed": 72,
+      "jump_count": 1469,
+      "jump_rate": 0.1207
+    },
+    {
+      "episode": 164,
+      "total_reward": 1955.06,
+      "steps": 12504,
+      "pipes_passed": 74,
+      "jump_count": 1476,
+      "jump_rate": 0.118
+    },
+    {
+      "episode": 165,
+      "total_reward": 1551.27,
+      "steps": 10003,
+      "pipes_passed": 59,
+      "jump_count": 1107,
+      "jump_rate": 0.1107
+    },
+    {
+      "episode": 166,
+      "total_reward": 2521.2,
+      "steps": 16014,
+      "pipes_passed": 95,
+      "jump_count": 1990,
+      "jump_rate": 0.1243
+    },
+    {
+      "episode": 167,
+      "total_reward": 536.68,
+      "steps": 3722,
+      "pipes_passed": 22,
+      "jump_count": 458,
+      "jump_rate": 0.1231
+    },
+    {
+      "episode": 168,
+      "total_reward": 4376.08,
+      "steps": 27527,
+      "pipes_passed": 164,
+      "jump_count": 3348,
+      "jump_rate": 0.1216
+    },
+    {
+      "episode": 169,
+      "total_reward": 3245.87,
+      "steps": 20511,
+      "pipes_passed": 122,
+      "jump_count": 2487,
+      "jump_rate": 0.1213
+    },
+    {
+      "episode": 170,
+      "total_reward": 932.27,
+      "steps": 6152,
+      "pipes_passed": 36,
+      "jump_count": 717,
+      "jump_rate": 0.1165
+    },
+    {
+      "episode": 171,
+      "total_reward": 1390.59,
+      "steps": 8993,
+      "pipes_passed": 53,
+      "jump_count": 1139,
+      "jump_rate": 0.1267
+    },
+    {
+      "episode": 172,
+      "total_reward": 664.47,
+      "steps": 4491,
+      "pipes_passed": 26,
+      "jump_count": 547,
+      "jump_rate": 0.1218
+    },
+    {
+      "episode": 173,
+      "total_reward": 6231.23,
+      "steps": 39049,
+      "pipes_passed": 233,
+      "jump_count": 4643,
+      "jump_rate": 0.1189
+    },
+    {
+      "episode": 174,
+      "total_reward": 1954.68,
+      "steps": 12496,
+      "pipes_passed": 74,
+      "jump_count": 1518,
+      "jump_rate": 0.1215
+    },
+    {
+      "episode": 175,
+      "total_reward": 5048.13,
+      "steps": 31704,
+      "pipes_passed": 189,
+      "jump_count": 3783,
+      "jump_rate": 0.1193
+    },
+    {
+      "episode": 176,
+      "total_reward": 5075.29,
+      "steps": 31874,
+      "pipes_passed": 190,
+      "jump_count": 3799,
+      "jump_rate": 0.1192
+    },
+    {
+      "episode": 177,
+      "total_reward": 352.5,
+      "steps": 2598,
+      "pipes_passed": 15,
+      "jump_count": 280,
+      "jump_rate": 0.1078
+    },
+    {
+      "episode": 178,
+      "total_reward": 8498.64,
+      "steps": 53155,
+      "pipes_passed": 318,
+      "jump_count": 6324,
+      "jump_rate": 0.119
+    },
+    {
+      "episode": 179,
+      "total_reward": 878.23,
+      "steps": 5819,
+      "pipes_passed": 34,
+      "jump_count": 643,
+      "jump_rate": 0.1105
+    },
+    {
+      "episode": 180,
+      "total_reward": 2680.81,
+      "steps": 17006,
+      "pipes_passed": 101,
+      "jump_count": 2031,
+      "jump_rate": 0.1194
+    },
+    {
+      "episode": 181,
+      "total_reward": 886.76,
+      "steps": 5896,
+      "pipes_passed": 35,
+      "jump_count": 726,
+      "jump_rate": 0.1231
+    },
+    {
+      "episode": 182,
+      "total_reward": 71.24,
+      "steps": 808,
+      "pipes_passed": 4,
+      "jump_count": 54,
+      "jump_rate": 0.0668
+    },
+    {
+      "episode": 183,
+      "total_reward": 3461.41,
+      "steps": 21851,
+      "pipes_passed": 130,
+      "jump_count": 2641,
+      "jump_rate": 0.1209
+    },
+    {
+      "episode": 184,
+      "total_reward": 2924.1,
+      "steps": 18511,
+      "pipes_passed": 110,
+      "jump_count": 2310,
+      "jump_rate": 0.1248
+    },
+    {
+      "episode": 185,
+      "total_reward": 636.24,
+      "steps": 4317,
+      "pipes_passed": 25,
+      "jump_count": 464,
+      "jump_rate": 0.1075
+    },
+    {
+      "episode": 186,
+      "total_reward": 2842.99,
+      "steps": 18007,
+      "pipes_passed": 107,
+      "jump_count": 2239,
+      "jump_rate": 0.1243
+    },
+    {
+      "episode": 187,
+      "total_reward": 11344.39,
+      "steps": 70789,
+      "pipes_passed": 423,
+      "jump_count": 8559,
+      "jump_rate": 0.1209
+    },
+    {
+      "episode": 188,
+      "total_reward": 5828.76,
+      "steps": 36545,
+      "pipes_passed": 218,
+      "jump_count": 4436,
+      "jump_rate": 0.1214
+    },
+    {
+      "episode": 189,
+      "total_reward": 3085.08,
+      "steps": 19518,
+      "pipes_passed": 116,
+      "jump_count": 2338,
+      "jump_rate": 0.1198
+    },
+    {
+      "episode": 190,
+      "total_reward": 1832.35,
+      "steps": 11782,
+      "pipes_passed": 70,
+      "jump_count": 1425,
+      "jump_rate": 0.1209
+    },
+    {
+      "episode": 191,
+      "total_reward": 851.81,
+      "steps": 5653,
+      "pipes_passed": 33,
+      "jump_count": 661,
+      "jump_rate": 0.1169
+    },
+    {
+      "episode": 192,
+      "total_reward": 725.33,
+      "steps": 4892,
+      "pipes_passed": 29,
+      "jump_count": 623,
+      "jump_rate": 0.1274
+    },
+    {
+      "episode": 193,
+      "total_reward": 7721.18,
+      "steps": 48313,
+      "pipes_passed": 289,
+      "jump_count": 5998,
+      "jump_rate": 0.1241
+    },
+    {
+      "episode": 194,
+      "total_reward": 5936.25,
+      "steps": 37219,
+      "pipes_passed": 222,
+      "jump_count": 4445,
+      "jump_rate": 0.1194
+    },
+    {
+      "episode": 195,
+      "total_reward": 636.71,
+      "steps": 4319,
+      "pipes_passed": 25,
+      "jump_count": 491,
+      "jump_rate": 0.1137
+    },
+    {
+      "episode": 196,
+      "total_reward": 636.62,
+      "steps": 4318,
+      "pipes_passed": 25,
+      "jump_count": 492,
+      "jump_rate": 0.1139
+    },
+    {
+      "episode": 197,
+      "total_reward": 2789.76,
+      "steps": 17685,
+      "pipes_passed": 105,
+      "jump_count": 2136,
+      "jump_rate": 0.1208
+    },
+    {
+      "episode": 198,
+      "total_reward": 4618.91,
+      "steps": 29041,
+      "pipes_passed": 173,
+      "jump_count": 3491,
+      "jump_rate": 0.1202
+    },
+    {
+      "episode": 199,
+      "total_reward": 7065.65,
+      "steps": 44229,
+      "pipes_passed": 264,
+      "jump_count": 5285,
+      "jump_rate": 0.1195
     }
   ]
 }
