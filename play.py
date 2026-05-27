@@ -139,6 +139,9 @@ while True:
         score_sound.play()
         passed_pipe = True
 
+    # if score > 10:
+    #     env.pipe_speed = 4
+
     if pipe_x > bird_x:
         passed_pipe = False
 
